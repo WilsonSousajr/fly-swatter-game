@@ -91,7 +91,10 @@ function randomSide(){
 }
 
 window.onload = () => {
-    document.body.appendChild(fly)
+    setInterval(function(){
+        randomPosition()
+    }, 1000)
+    randomPosition()
     
     document.body.onresize = () => {
         adjustGameStageSize()
