@@ -41,11 +41,11 @@ function randomPosition(){
     let fly = document.createElement('img')
 
     fly.src = "./src/imgs/fly.png"
-fly.classList.add("fly1")
-
-fly.style.left = `${positionX}px`
-fly.style.top = `${positionY}px`
-fly.style.position = 'absolute'
+    fly.classList.add(randomSize(), randomSide())
+    
+    fly.style.left = `${positionX}px`
+    fly.style.top = `${positionY}px`
+    fly.style.position = 'absolute'
 
 window.onload = () => {
     document.body.appendChild(fly)
