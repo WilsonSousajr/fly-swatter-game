@@ -35,9 +35,6 @@ function randomPosition(){
     positionY = positionY < 0 ? 0 : positionY
 
     console.log(positionX, positionY)
-
-//Create the html element
-
     let fly = document.createElement('img')
 
     fly.src = "./src/imgs/fly.png"
