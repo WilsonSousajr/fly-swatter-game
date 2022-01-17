@@ -28,8 +28,8 @@ function randomPosition(){
         }
     }
 
-let positionX = Math.floor(Math.random() * width) - 90
-let positionY = Math.floor(Math.random() * height) - 90
+    let positionX = Math.floor(Math.random() * width) - 90
+    let positionY = Math.floor(Math.random() * height) - 90
 
 positionX = positionX < 0 ? 0 : positionX
 positionY = positionY < 0 ? 0 : positionY
