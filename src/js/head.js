@@ -34,11 +34,11 @@ function randomPosition(){
     positionX = positionX < 0 ? 0 : positionX
     positionY = positionY < 0 ? 0 : positionY
 
-console.log(positionX, positionY)
+    console.log(positionX, positionY)
 
 //Create the html element
 
-let fly = document.createElement('img')
+    let fly = document.createElement('img')
 
 fly.src = "./src/imgs/fly.png"
 fly.classList.add("fly1")
