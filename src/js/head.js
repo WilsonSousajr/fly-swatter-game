@@ -12,6 +12,22 @@ adjustGameStageSize()
 
 console.log(width, height)
 
+
+function randomPosition(){
+
+    //remove previus fly if any
+
+    if(document.getElementById('fly')){
+        document.getElementById('fly').remove()
+        
+        if(lifes > 3){
+           window.location.href = "src/pages/game_over.html"
+        }else{
+            document.querySelector(`#l${lifes}`).src="./src/imgs/empty_heart.png"
+            lifes++
+        }
+    }
+
 let positionX = Math.floor(Math.random() * width) - 90
 let positionY = Math.floor(Math.random() * height) - 90
 
