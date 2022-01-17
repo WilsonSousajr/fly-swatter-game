@@ -40,7 +40,7 @@ function randomPosition(){
 
     let fly = document.createElement('img')
 
-fly.src = "./src/imgs/fly.png"
+    fly.src = "./src/imgs/fly.png"
 fly.classList.add("fly1")
 
 fly.style.left = `${positionX}px`
