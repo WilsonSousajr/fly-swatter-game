@@ -46,6 +46,49 @@ function randomPosition(){
     fly.style.left = `${positionX}px`
     fly.style.top = `${positionY}px`
     fly.style.position = 'absolute'
+    fly.id = 'fly'
+
+    fly.addEventListener("click", function(){
+        this.remove()
+    })
+
+    document.body.appendChild(fly)
+
+}
+
+
+
+function randomSize(){
+    let _class = Math.floor(Math.random() * 3)
+
+    if( _class === 0 )
+    {
+        return 'fly1'
+    }
+    else if( _class === 1 )
+    {
+        return 'fly2'
+    }
+    else if( _class === 2 )
+    {
+        return 'fly3'
+    }
+
+    console.log(_class)
+}
+
+function randomSide(){
+    let side = Math.floor(Math.random() * 2)
+
+    if(side === 0 )
+    {
+        return 'sideA'
+    }
+    else if( side === 1 )
+    {
+        return 'sideB'
+    }
+}
 
 window.onload = () => {
     document.body.appendChild(fly)
