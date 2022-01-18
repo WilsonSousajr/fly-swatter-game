@@ -2,21 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Fly-swatter</title>
-        <script src="./src/js/head.js"></script>
+        <title>Game-Over</title>
         <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/game.css">
+        <link rel="stylesheet" href="./src/css/otherpages.css">
     </head>
     <body>
-        <div class="panel">
-            <div class="lifes">
-                <img src="./src/imgs/heart.png" id="l1">
-                <img src="./src/imgs/heart.png" id="l2">
-                <img src="./src/imgs/heart.png" id="l3">
+        
+        <div>
+            <img src="./src/imgs/title.png">  
+            <div class="select">
+                <select id="level">
+                    <option value="">--Select level</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                    <option value="nightmare">Nightmare</option>
+                </select>
             </div>
-            <div class="stopwatch">
-                time left: ?
-            </div>
-        </div>
-        <script src="./src/js/script.js"></script>
+            <button type="button" id="start">Start</button>
+        </div>   
+    <script src="./src/js/script.js"></script>
     </body>
 </html>
