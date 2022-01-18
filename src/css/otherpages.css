@@ -1,0 +1,27 @@
+img{
+    width: 800px;
+}
+
+div{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
