@@ -4,6 +4,20 @@ let height = 0;
 let lifes = 1;
 let time = 10;
 
+let makeFlyTime = 1500
+
+let level = window.location.search
+level = level.replace('?', '')
+
+if(level === 'normal'){
+    makeFlyTime = 1500
+}
+else if(level === 'hard'){
+    makeFlyTime = 1000
+}else if(level === 'nightmare'){
+    makeFlyTime = 500
+}
+
 function adjustGameStageSize(){
     width  = window.innerWidth
     height = window.innerHeight
@@ -103,11 +117,11 @@ let makeFly
 
 window.onload = () => {
     document.querySelector("#time").innerHTML = time
-
+    console.log(makeFlyTime)
 
     makeFly = setInterval(function(){
         randomPosition()
-    }, 1000)
+    }, makeFlyTime)
     randomPosition()
     
     document.body.onresize = () => {
