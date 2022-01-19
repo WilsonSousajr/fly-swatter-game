@@ -1,6 +1,7 @@
 <img src="./src/imgs/title.png">
 
 <p align="center">A fly swatter game whose main objective is to challenge my knowledge in programming logic</p>
+<p align="center"><a href="fly-swatter.netlify.app">Access the game</a></p>
 
 <br/>
 <br/>
