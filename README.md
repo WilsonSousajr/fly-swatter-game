@@ -9,7 +9,8 @@
 <p align="center">
  <a href="#objective">Objective</a> • 
  <a href="#tecnologies">Tecnologies</a> • 
- <a href="dependencies">Dependencies</a>
+ <a href="dependencies">Dependencies</a> • 
+ <a href="printscreens">Printscreens</a> • 
  <a href="#contributions">Contribution</a> • 
  <a href="#author">Author</a>
 </p>
@@ -42,6 +43,20 @@
  <li>Git (to clone this repository if you want</li>
  </ol>
  
+<br/><br/>
+
+<h1 id="printscreen">📷 Printscreen</h1>
+
+<h3>Main page</h3>
+<img src="./printscreens/main.png">
+<img src="./printscreens/menu.png">
+<h3>Game</h3>
+<img src="./printscreens/game.png">
+<h3>Game-Over</h3>
+<img src="./printscreens/game-over.png">
+<h3>Win</h3>
+<img src="./printscreens/win.png">
+
 <br/><br/>
  
 <h1 id="contributions">👥 Contribution</h1>
