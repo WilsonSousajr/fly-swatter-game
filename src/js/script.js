@@ -7,10 +7,13 @@ start.addEventListener("click", function(){
 })
 
 function startGame(){
+
     level = document.querySelector("#level").value
     if(level === ''){
         alert("Select a level to start the game")
         return false;
     }
-    alert(level)
+    window.location.href = `/src/pages/game.html?${level}`
 }
+
+
