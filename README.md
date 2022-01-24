@@ -17,7 +17,7 @@
 
 <br/><br/><br/>
 
-<h1>Status: 🚧Under construction🚧</h1>
+<h1>Status: ✔️Finished✔️</h1>
 <br/><br/>
  
 <h1 id="objective">🎯 Objective</h1>
